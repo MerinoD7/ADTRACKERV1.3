@@ -1,0 +1,1735 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*html{
+    
+      scroll-snap-type: y mandatory;
+    } */
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.hov{
+    opacity: 0;
+    transform: scale(0);
+    animation: grow 2s ease-out 0.8 forwards;
+}
+
+
+.logotipo{
+    width: 70px;
+}
+
+
+.it{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.flot{
+    
+    padding-left: 7%;
+    width: 70%;
+    top: -60px;
+    position: relative;
+   
+
+}
+.PBello{
+    padding-top: 20px;
+    margin: 5px;
+}
+.letter{
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    
+    text-shadow: 0px 0px 7px rgb(255, 255, 255);
+}
+
+.letter:hover{
+    color: rgb(255, 255, 255); 
+    text-shadow: black 0.2em 0.2em 0.3em
+}
+.sps--blw{
+    background-color: white;
+    border-bottom: solid 1px;
+    
+}
+
+nav.sps--abv .logotipo{
+    width: 40%;
+}
+
+nav.sps--blw .nav-link{
+    
+        display: block;
+        color: rgb(8, 8, 8);
+      
+        text-decoration: dotted;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        
+   
+}
+
+nav.sps--blw .nav-link:hover{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.bg-img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(0);
+    animation: grow 2s ease-out 0.8 forwards;
+}
+
+.justifi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    padding: -1px 3.5rem;
+    color: white;
+    text-align: justify;
+}
+
+.text{
+    margin-top:50px ;
+    margin-right:10px ;
+    position: absolute;
+    top: 35%;
+    padding: 0 3.5rem;
+    color: white;
+    text-align: justify;
+}
+
+.text h1{
+    opacity: 0;
+    animation: animate 3s ease forwards;
+    text-shadow: white;
+    
+
+}
+
+.text h1 span{
+    background-color: black;
+    padding: 0.3rem 1rem;
+    display:flexbox;
+    opacity: 0;
+    transform: scale(0);
+    animation: grow 2s ease-out 1 forwards;
+    
+}
+
+.luz{
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
+
+
+.para{
+    padding: 0;
+    width: 28rem;
+    font-size: 1.4rem;
+    right: 10%;
+    transform: translate(50px);
+    margin-right: 25px;
+    opacity: 0;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    animation: animated2 2s ease 2s forwards;
+}
+
+.Line{
+    width: 100%;
+    height: 0.01rem;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: grow2 2s ease 2s forwards;
+
+}
+
+.bton{
+   margin-top: 232px;
+   font-family: 'Roboto Condensed', sans-serif;
+   opacity: 0;
+   transform: scale(0);
+   animation: grow 2s ease-out 0.8 forwards;
+}
+
+button.bton.btn.btn-outline-light {
+    width: 155%;
+    font-size: 22px;
+}
+.parrafo{
+    color: white; 
+    text-shadow: black 0.3em 0.3em 0.5em;
+    background: rgba(128, 128, 128, 0.671);
+    padding: 15px;
+}
+
+.formulario{
+  width:100%;
+  height:900px;
+}
+
+
+@keyframes grow2{
+    100%{
+        width: 92%;
+    }
+}
+
+@keyframes grow{
+    10%{
+        transform: scale(0.1) ;
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1) ;
+        opacity: 1;
+    }
+}
+@keyframes animate{
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes animated2{
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animated3{
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 952px){
+    .namenu, ul, .respo{
+        padding-left: 20px;
+    }
+
+    
+    .namenu ul li a{
+        font-size: 20px;
+    }
+    .text, .spa{
+        margin-left: 10px;
+        position: fixed;
+        font-size: 10px;
+        text-align: center;
+        transition: all .5s;
+    }
+}
+
+@media (max-width: 858px){
+    
+    #logofondo{
+        margin-left: 35px;
+    }
+    .namenu{
+        margin-left: 90px;
+    }
+    
+    
+    .namenu ul li a{
+        font-size: auto;
+    }
+    .text, .spa{
+        margin-left: 10px;
+        position: fixed;
+        font-size: 10px;
+        text-align: center;
+        transition: all .5s;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .aaa{
+        margin-right: 0px;
+    }
+}
+    @media (max-width: 600px){
+
+        .respo{
+            margin-top: 15px;
+        }
+
+        .namenu, ul, .respo{
+            
+            margin-left: 30px;
+            position: absolute;
+            font-size: 90%;
+            text-align: center;
+            transition: all .5s;
+            margin-right: 0px;
+        }
+        .namenu ul li{
+            
+            margin: 40px;
+            
+        }
+        .namenu ul li a{
+            font-size: 12px;
+            padding: 0;
+            margin: 0;
+           
+        }
+            
+            .text{
+                margin-left: 10px;
+                float: inline-end;
+                padding: 0;
+                font-size: 90px;
+                text-align: center;
+                transition: all .5s;
+                width: 0%;
+            }
+            
+            .spa{
+                margin-left: 10px;
+                text-align: center;
+                transition: all .5s;
+                
+            }
+            .aaa{
+                margin-right: 10px;
+                
+            }
+            .textpara{
+                position: absolute;
+                font-size: 50px;
+                padding: 0 3.5rem;
+                color: white;
+            }
+            
+    }
+
+      .mans2{
+        font-weight: 900;
+        font-size: 50px;
+        color: orange; /* Color del texto */
+       
+      }
+       
+      @media (max-width: 858px){
+        .mans2{
+            font-weight: 900;
+            font-size: 18px;
+            color: orange; 
+      }
+    }
+
+    @media (max-width: 600px)
+    {
+      
+    }
+.textjust{
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 600;
+    
+}
+
+@media (min-width: 720px) and (max-width: 1080px) {
+  .justifi{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 0 3.5rem;
+    color: white;
+    text-align: justify;
+  }
+  .section .texo {
+    
+    color: white;
+    position:absolute;
+    margin-top: 10px;
+    float: right;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .section .texo h2{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .section .texo p {
+    line-height: 0.8;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .contenedor {
+    display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */  
+    background-color: rgb(209, 35, 35);
+  }
+  
+  .columna {
+    flex: 1; /* Hace que las columnas sean flexibles y se expandan para llenar el espacio disponible */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado verti*/
+  }
+
+  .mans2{
+    font-size: 35px;
+  }
+
+  .contenedorg .columnag {
+    padding-top: 19%;
+    padding-right: 15%;
+  }
+
+  .contenedorg .manes{  
+    position:relative;
+    width: 105%;
+  top: -65px;
+  height: 114%;
+  padding-left: 8%;
+    
+  }
+  
+  .contenedorg .mans3{
+    position:relative;
+      top: -60px;
+      height: 115%;
+      width: 80%;
+       margin-left: 10%;
+  }
+
+  .contenedor .amapa{
+    color: rgb(255, 179, 39);
+    font-weight: bold;
+    font-size: 40px;
+   
+    background-clip: text;
+    text-align: center;
+    margin-left: 15%;
+  }
+ 
+  .columna h3{
+    font-size: 24px;
+    
+
+  }
+  .fade-in-box .colunaste{
+      padding-top: 5%;
+      padding-right: 15%;
+      color: orange;
+  font-weight: bold;
+  font-size: 50px;
+ text-shadow: 2px 2px 3px white;
+  background-clip: text;
+  text-align: center;
+  }
+  
+  .tamaño{
+    margin-top: 0;
+  }
+  .flot{
+    
+    padding-left: 7%;
+    width: 100%;
+    top: -60px;
+    position: relative;
+}
+
+.columnac .wrappe .clash-card2  {
+   
+  background: white;
+  width: 200px;
+  height: 300px;
+ padding: 1px;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  margin-top: 3%;
+  margin-bottom: 95%; 
+ 
+}
+
+.columnac .clash-card {
+   
+  background: white;
+  width: 200px;
+  height: 300px;
+ padding: 1px;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  margin-top: 3%;
+  margin-bottom: 95%; 
+ 
+}
+
+.columnac .clash-card:hover {
+  transform: rotateX(7deg) translateY(-6px);
+  width: 205px;
+  box-shadow: inset -4px 2px 0 0 orange;
+}
+
+
+
+.clash-card:hover::before {
+  opacity: 0.6;
+  transform: rotateX(7deg) translateY(-6px) scale(1.05);
+}
+
+.barbarian{
+  background-color: rgb(219, 45, 45);
+  border-radius: 15px;
+  
+}
+  
+.barbarian .clash-card__level {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+   color:#41e2af
+}
+.barbarian .clash-card__level3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color: #f59638
+}
+.barbarian .clash-card__level4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+
+  color: #c1c1c2
+}
+.barbarian .clash-card__level5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color:#ffee58
+}
+
+ 
+.barbarian .clash-card__unit-name {
+  font-size: 15px; 
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  margin-bottom: 2px;
+  font-family: 'Roboto';
+}
+
+.clash-card__unit-description p{
+  padding: 5px;
+  background-color: white;
+  font-style: italic;
+  font-size: 14px;
+  
+}
+
+.clash-card2 .barbarian .tamañobronce {
+  width: 70%;
+  position: absolute;
+  margin-left: 105px;    
+    top: -45px;
+    
+}
+
+.clash-card .barbarian .tamañobronce {
+  width: 70%;
+  position: absolute;
+  margin-left: 105px;    
+    top: -45px;
+    
+}
+.tamañobronc{
+  width: 58%;
+  position: absolute;    
+  padding-right: 10%;
+}
+
+}
+
+@media (min-width: 1920px) and (max-width: 1080px) {
+  .justifi{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 0 3.5rem;
+    color: white;
+    text-align: justify;
+  }
+  .section .texo {
+    
+    color: white;
+    position:absolute;
+    margin-top: 10px;
+    float: right;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .tama{
+    width: 150%;
+    height: 255%;
+  }
+
+  .section .texo h2{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .section .texo p {
+    line-height: 0.8;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .contenedor {
+    display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */  
+    background-color: rgb(209, 35, 35);
+  }
+  
+  .columna {
+    flex: 1; /* Hace que las columnas sean flexibles y se expandan para llenar el espacio disponible */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado verti*/
+  }
+
+  .mans2{
+    font-size: 35px;
+  }
+
+  .contenedorg .columnag {
+    padding-top: 19%;
+    padding-right: 15%;
+  }
+
+  .contenedorg .manes{  
+    position:relative;
+    width: 105%;
+  top: -65px;
+  height: 114%;
+  padding-left: 8%;
+    
+  }
+  
+  .contenedorg .mans3{
+    position:relative;
+      top: -60px;
+      height: 115%;
+      width: 80%;
+       margin-left: 10%;
+  }
+
+  .contenedor .amapa{
+    color: rgb(255, 179, 39);
+    font-weight: bold;
+    font-size: 40px;
+   
+    background-clip: text;
+    text-align: center;
+    margin-left: 15%;
+  }
+ 
+  .columna h3{
+    font-size: 24px;
+    
+
+  }
+  .fade-in-box .colunaste{
+      padding-top: 5%;
+      padding-right: 15%;
+      color: orange;
+  font-weight: bold;
+  font-size: 50px;
+ text-shadow: 2px 2px 3px white;
+  background-clip: text;
+  text-align: center;
+  }
+  
+  .tamaño{
+    margin-top: 0;
+  }
+  .flot{
+    
+    padding-left: 7%;
+    width: 100%;
+    top: -60px;
+    position: relative;
+}
+
+.columnac .wrappe .clash-card2  {
+   
+  background: white;
+  width: 200px;
+  height: 300px;
+ padding: 1px;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  margin-top: 3%;
+  margin-bottom: 95%; 
+ 
+}
+
+.columnac .clash-card {
+   
+  background: white;
+  width: 200px;
+  height: 300px;
+ padding: 1px;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  margin-top: 3%;
+  margin-bottom: 95%; 
+ 
+}
+
+.columnac .clash-card:hover {
+  transform: rotateX(7deg) translateY(-6px);
+  width: 205px;
+  box-shadow: inset -4px 2px 0 0 orange;
+}
+
+
+
+.clash-card:hover::before {
+  opacity: 0.6;
+  transform: rotateX(7deg) translateY(-6px) scale(1.05);
+}
+
+.barbarian{
+  background-color: rgb(219, 45, 45);
+  border-radius: 15px;
+  
+}
+  
+.barbarian .clash-card__level {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+   color:#41e2af
+}
+.barbarian .clash-card__level3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color: #f59638
+}
+.barbarian .clash-card__level4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+
+  color: #c1c1c2
+}
+.barbarian .clash-card__level5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color:#ffee58
+}
+
+ 
+.barbarian .clash-card__unit-name {
+  font-size: 15px; 
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  margin-bottom: 2px;
+  font-family: 'Roboto';
+}
+
+.clash-card__unit-description p{
+  padding: 5px;
+  background-color: white;
+  font-style: italic;
+  font-size: 14px;
+  
+}
+
+.clash-card2 .barbarian .tamañobronce {
+  width: 70%;
+  position: absolute;
+  margin-left: 105px;    
+    top: -45px;
+    
+}
+
+.clash-card .barbarian .tamañobronce {
+  width: 70%;
+  position: absolute;
+  margin-left: 105px;    
+    top: -45px;
+    
+}
+.tamañobronc{
+  width: 58%;
+  position: absolute;    
+  padding-right: 10%;
+}
+
+.section .columnas {
+  display: flex;
+  padding: 0%;
+  background-color: grey;
+  
+}
+.columna-izquierda {
+        flex: 50%;
+        padding-left: 40px;
+        background-color: grey;
+        margin-left: 2%;
+        color: white;
+    }
+
+    img.tama.d-block.w-100 {
+      height: 14525%;
+    }
+
+    .px-4{
+      padding-right: 21.5rem!important;
+    padding-left: 21.5rem!important;
+    }
+
+/***************************************************************/
+
+
+}
+
+.contenedor {
+    display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */  
+    background-color: rgb(236, 236, 236);
+  }
+  
+  .columna {
+    flex: 1; /* Hace que las columnas sean flexibles y se expandan para llenar el espacio disponible */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado verti*/
+
+  }
+
+  .amapa{
+    color: rgb(255, 179, 39);
+    font-weight: bold;
+    font-size: 50px;
+   
+    background-clip: text;
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  .columna h3 {
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 10%;
+
+  }
+
+  .grey{
+    background-color: rgb(247, 247, 247);
+  }
+  .texxt{
+    position: relative;
+    height: 110%;
+    padding-left: 10%;
+    top: -74px;
+    width: 75%;
+  }
+
+  .tamaño{
+    margin-top: 4%;
+  }
+
+  .contenedor2 {
+    display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */
+    align-items: center;
+    justify-content: center; /* Centrado horizontal */
+    border-bottom: solid 1px;
+    background-color: rgb(179, 176, 176);
+  }
+
+  .textoblanco{
+    text-decoration: solid 1px;
+  }
+
+  .slide-container {
+    margin: 10%;
+    width: 600px;
+  }
+  
+  
+  .tamañobronce{
+    width: 200px;
+    position: absolute;    
+      top: -65px;
+      left: -70px;
+      margin-left: 40%;
+      
+  }
+
+  .tamañobronc{
+    width: 60%;
+    position: absolute;    
+    padding-right: 11%;
+  }
+
+  .l-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
+    }
+
+    @media (min-width: 375px) and (max-width: 812px) {
+
+      #DA5A2HWO{
+        width:100%;
+        height:50px;
+      }
+      .greey{
+      margin-bottom: 12%;
+      background-color: white;
+    }
+      .navbar .navbar-brand .logotipo{
+        width: 35px;
+        position: absolute;
+        margin-right: 50%;
+       left: 30px;
+    }
+    .navbar{
+      margin: 0%;
+      padding: 0%;
+      box-shadow: none;
+    }
+
+    .sps--blw{
+      padding-bottom: 5%;
+    }
+
+    .navbar .navbar-expand-lg{
+      margin: 0%;
+      padding: 0%;
+      box-shadow: none;
+    }
+
+    .navbar .navbar-toggler{
+      width: 15%;
+      margin: 0%;
+      padding: 0%;
+      position: absolute;
+      padding-left: 30%;
+      box-shadow: none;
+      border-style: none;
+    }
+      .texo .justifi  {
+        display: flex;
+        position: absolute;
+        top: 2px;
+        left: 15px;
+        padding: 0 3.5rem;
+        color: rgb(3, 2, 2);
+      }
+
+      .bton{
+        
+        margin-top: 140px;
+       font-size: 5px;
+        font-family: 'Roboto Condensed', sans-serif;
+        opacity: 0;
+        transform: scale(0);
+        animation: grow 2s ease-out 0.8 forwards;
+        
+    }
+
+    
+
+      .section .texo {
+        
+        color: white;
+        position:absolute;
+        margin-top: 0;
+        float: right;
+        
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+    
+      .section .texo h2{
+        margin-bottom: 5px;
+        font-size: 8px;
+        font-weight: bold;
+      }
+    
+      .section .texo p {
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 7px;
+      }
+      .contenedor {
+        display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */  
+        background-color: rgb(129, 129, 129);
+      }
+      
+      .columna {
+        flex: 1; /* Hace que las columnas sean flexibles y se expandan para llenar el espacio disponible */
+        justify-content: center; /* Centrado horizontal */
+        align-items: center; /* Centrado verti*/
+      }
+    
+      .mans2{
+        font-size: 12px;
+      }
+
+      
+      .contenedorg .fade-in-box .colunaste{
+        padding-top: 15%;
+        padding-right: 15%;
+        color: orange;
+        font-weight: bold;
+        font-size: 12px;
+        text-shadow: 2px 2px 3px white;
+        background-clip: text;
+        text-align: center;
+    }
+    
+    .ache3{
+      font-size: 9px;
+    }
+      .contenedorg .columnag {
+        padding-top: 19%;
+        padding-right: 15%;
+      }
+    
+      .contenedorg .manes{  
+        position:relative;
+        width: 105%;
+      top: -25px;
+      height: 115%;
+      padding-left: 8%;
+        
+      }
+      .contenedor .flot{
+        padding-left: 7%;
+    width: 100%;
+    top: -10px;
+    position: relative;
+
+      }
+
+
+      .textjust{
+        font-size: 10px;
+      }
+      .contenedorg .mans3{
+        position:relative;
+          top: -12px;
+          height: 109%;
+          width: 80%;
+           margin-left: 10%;
+      }
+
+      .columnat{
+        padding-top: 15%;
+        padding-right: 15%;
+        color: orange;
+    font-weight: bold;
+    font-size: 60px;
+   text-shadow: 2px 2px 3px white;
+    background-clip: text;
+    text-align: center;
+      }
+    
+      .contenedor .amapa{
+        color: rgb(255, 179, 39);
+        font-weight: bold;
+        font-size: 12px;
+       
+        background-clip: text;
+        text-align: center;
+        margin-left: 15%;
+      }
+     
+      .fade-in-box {
+        opacity: 0;
+        transform: translateY(20px); /* Opcional: inicia ligeramente desplazado hacia abajo */
+        transition: opacity 2s, transform 1s; /* Transiciones suaves */
+    }
+    
+    /* Muestra el div cuando está en el viewport */
+    .fade-in-box.show {
+        opacity: 1;
+        transform: translateY(0);
+  
+    }
+      .columna h3{
+        font-size: 10px;
+        
+    
+      }
+      .fade-in-box .colunaste{
+          
+          padding-right: 15%;
+          color: orange;
+      font-weight: bold;
+      font-size: 50px;
+     text-shadow: 2px 2px 3px white;
+      background-clip: text;
+      text-align: center;
+      }
+      
+      .tamaño{
+        margin-top: 0;
+      }
+
+      .columnac .clash-card .barbarian{
+        background-color: rgb(141, 137, 137);
+        border-radius: 15px;
+        
+      }
+
+      .flot{
+        
+        padding-left: 7%;
+        width: 100%;
+        top: -60px;
+        position: relative;
+    }
+
+    .emcabezado{
+       margin-top: 0;
+        text-align: center;
+        
+      }
+
+      .emcabezado h1  {
+        font-weight: bolder;
+        font-size: 15px;
+      }
+
+    .clash-card2 .barbarian .tamañobronce {
+        width: 65%;
+        position: absolute;
+        padding-left: 15%;    
+          top: -15px;
+          
+      }
+
+   .barbarian .tamañobronce {
+        width: 45%;
+        position: absolute;
+        padding-left: 15%;    
+          top: -15px;
+          
+      }
+
+    .greey .contenedorcompra {
+      display:contents;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    
+   
+    
+    .columnac .wrappe .clash-card2  {
+       
+      background: white;
+      width: 200px;
+      height: 300px;
+     padding: 1px;
+      border-radius: 19px;
+      position:relative;
+      inset-block: 4;
+      text-align: center;
+      box-shadow: -1px 15px 30px -12px black;
+      
+      margin-bottom: 60%;
+      
+
+    }    
+
+    .columnac .clash-card  {
+       
+      background: white;
+      width: 200px;
+      height: 300px;
+     padding: 1px;
+      border-radius: 19px;
+      position: inherit;
+      inset-block: 4;
+      text-align: center;
+      box-shadow: -1px 15px 30px -12px black;
+      margin-top: 3%;
+      margin-bottom: 15%;      
+     
+    }  
+
+    .barbarian .clash-card__level {
+      text-transform: uppercase;
+      font-size: 15px;
+      padding-top: 40%;
+      font-weight: 800;
+       color:#41e2af
+    }
+    .barbarian .clash-card__level3 {
+      text-transform: uppercase;
+      font-size: 15px;
+      padding-top: 40%;
+      font-weight: 800;
+      color: #f59638
+    }
+    .barbarian .clash-card__level4 {
+      text-transform: uppercase;
+      font-size: 15px;
+      padding-top: 40%;
+      font-weight: 800;
+    
+      color: #c1c1c2
+    }
+    .barbarian .clash-card__level5 {
+      text-transform: uppercase;
+      font-size: 15px;
+      padding-top: 40%;
+      font-weight: 800;
+      color:#ffee58
+    }
+     
+    .columnac .barbarian .clash-card__unit-name {
+      font-size: 13px; 
+      color: rgb(255, 255, 255);
+      font-weight: 900;
+     
+      font-family: 'Roboto';
+    }
+    
+     .clash-card__unit-description p span{
+      padding: 0;
+      background-color: rgb(255, 255, 255);
+      font-style: italic;
+      font-size: 10px;
+      
+    }
+
+    .clash-card__unit-description p{
+      padding: 0;
+      margin: 0;
+      
+    }
+
+    .clash-card__unit-description h3{
+      font-size: 19px;
+      padding-bottom: 5px;
+  
+
+    }
+    
+    
+    
+    .clash-card:hover::before {
+      opacity: 0.6;
+      transform: rotateX(7deg) translateY(-6px) scale(1.05);
+    }
+    
+    .barbarian{
+      background-color: rgb(141, 137, 137);
+      border-radius: 15px;
+      margin-top: 10%;
+      
+    }
+      
+    .barbarian .clash-card__level {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 800;
+       color:#41e2af
+    }
+    .barbarian .clash-card__level3 {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 800;
+      color: #f59638
+    }
+    .barbarian .clash-card__level4 {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 800;
+    
+      color: #c1c1c2
+    }
+    .barbarian .clash-card__level5 {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 800;
+      color:#ffee58
+    }
+    
+     
+    .barbarian .clash-card__unit-name {
+      font-size: 15px; 
+      color: rgb(255, 255, 255);
+      font-weight: 900;
+      margin-bottom: 2px;
+      font-family: 'Roboto';
+    }
+    
+    .clash-card__unit-description p{
+      padding: 5px;
+      background-color: white;
+      font-style: italic;
+      font-size: 14px;
+      
+    }
+
+    .columnas .columna-izquierda{
+      margin-left: 0;
+      padding-left: 0;
+      padding-top: 5px;
+    }
+    .columna-izquierda h2 {
+      font-size: 20px;
+    }
+    .columna-izquierda p{
+      font-size: 15px;
+    }
+    .bote{
+      font-size: 12px;
+    }
+    .centro{
+      font-size: 20px;
+    }
+     .centros {
+      font-size: 15px;
+    }
+  }
+    
+    .greey{
+      margin-bottom: 2%;
+      background-color: white;
+    }
+    
+    
+    
+    .contenedor {
+        display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */  
+        background-color: rgb(236, 236, 236);
+      }
+      
+      .columna {
+        flex: 1; /* Hace que las columnas sean flexibles y se expandan para llenar el espacio disponible */
+        justify-content: center; /* Centrado horizontal */
+        align-items: center; /* Centrado verti*/
+    
+      }
+    
+      .amapa{
+        color: rgb(255, 179, 39);
+        font-weight: bold;
+        font-size: 50px;
+       
+        background-clip: text;
+        text-align: center;
+        margin-left: 15%;
+      }
+    
+      .columna h3 {
+        line-height: 1;
+        text-align: justify;
+        margin-left: 15%;
+        margin-right: 10%;
+    
+      }
+    
+      .grey{
+        background-color: rgb(247, 247, 247);
+      }
+      .texxt{
+        position: relative;
+        height: 110%;
+        padding-left: 10%;
+        top: -74px;
+        width: 75%;
+      }
+    
+      .tamaño{
+        margin-top: 4%;
+      }
+    
+      .tamañobronc{
+        width: 60%;
+        position: absolute;    
+        padding-right: 11%;
+      }
+
+      .contenedor2 {
+        display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */
+        align-items: center;
+        justify-content: center; /* Centrado horizontal */
+        border-bottom: solid 1px;
+        background-color: rgb(179, 176, 176);
+      }
+    
+      .textoblanco{
+        text-decoration: solid 1px;
+      }
+    
+      .slide-container {
+        margin: 10%;
+        width: 600px;
+      }
+      
+      
+      .tamañobronce{
+        width: 200px;
+        position: absolute;    
+          top: -65px;
+          left: -70px;
+          margin-left: 40%;
+          
+      }
+      
+
+      .l-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        width: 100%;
+        max-width: 1200px;
+        padding: 30px;
+        }
+
+    
+  
+  .clash-card {
+   
+    background: white;
+    width: 300px;
+    height: 600px;
+   padding: 3px;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    margin-top: 15%;
+   
+  }
+
+  .clash-card:hover {
+    transform: rotateX(7deg) translateY(-6px);
+    width: 301px;
+    box-shadow: inset -4px 2px 0 0 orange;
+  }
+
+  .clash-card:hover::before {
+    opacity: 0.6;
+    transform: rotateX(7deg) translateY(-6px) scale(1.05);
+  }
+ 
+  .barbarian{
+    background-color: gray;
+    border-radius: 15px;
+    padding-bottom: 5%;
+  }
+    
+  .clash-card__level {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 60%;
+    color:#41e2af
+  }
+  .clash-card__level3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 60%;
+    color: #f59638
+  }
+  .clash-card__level4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 60%;
+    color: #c1c1c2
+  }
+  .clash-card__level5 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 60%;
+    color:#ffee58
+  }
+  
+   
+  .clash-card__unit-name {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-bottom: 2px;
+    font-family: 'Roboto';
+  }
+  
+  .clash-card__unit-description {
+    padding: 10px;
+    background-color: white;
+    font-style: italic;
+    
+  
+  }
+
+  .l2:Hover{
+    color:#41e2af
+  }
+  
+  .l3:Hover{
+    color: #f59638
+  }
+  .l4:Hover{
+    color: #c1c1c2
+  }
+  .l5:Hover{
+    color:#ffee58
+  }
+  .clash-card__unit-description .botonn{
+      text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+      text-align:center;
+      text-decoration: none;
+      font-family: 'Helvetica Neue', Helvetica,; 
+        color: rgb(255, 255, 255);
+      padding: 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    
+    
+    }
+  
+    .azul{
+      background:grey;
+      box-shadow: 0px 5px 0px 0px Grey;
+    }
+    
+    .azul:hover{
+      background: #FFFF;
+      color: black;
+      border: solid 0.1rem;
+    }
+    
+    .azul:active{
+      box-shadow: 0px 2px 0px 0px #2980B9;
+    }
+
+    .cartasjuntas{
+        float: left;
+    }
+
+    .contenedorcompra {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Divide el espacio en cuatro columnas iguales */
+        gap: 10px; /* Espacio entre columnas */
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      
+      .columnac {
+        padding: 10px; /* Espaciado interno */
+      }
+      
+      .emcabezado{
+       margin-top: 3%;
+        text-align: center;
+        
+      }
+
+      .emcabezado h1  {
+        font-weight: bolder;
+      }
+
+      .color{
+        color: orange;
+      }
+
+      .contenedorg {
+        display: grid; /* Utiliza CSS Grid para crear el diseño de dos columnas */
+        grid-template-columns: 1fr 1fr; /* Divide el espacio en dos columnas iguales */
+        
+
+      }
+      
+      .columnag {
+        padding-top: 25%;
+        padding-right: 15%;
+      }
+
+      .mans{  
+        position:relative;
+        width: 98%;
+      top: -65px;
+      height: 108%;
+      padding-left: 8%;
+        
+      }
+
+
+      .mans3{  
+        position:relative;
+      top: -65px;
+      height: 110%;
+        width: 70%;
+         margin-left: 10%;
+      }
+
+      .columnat{
+        padding-top: 15%;
+        padding-right: 15%;
+        color: orange;
+    font-weight: bold;
+    font-size: 60px;
+   text-shadow: 2px 2px 3px white;
+    background-clip: text;
+    text-align: center;
+      }
+
+      .ache3 {
+        margin-right: 3%;
+      }
+
+      .columnas {
+        display: flex;
+        padding: 0%;
+        background-color: grey;
+    }
+    
+    .columna-izquierda {
+        flex: 50%;
+        padding-left: 40px;
+        background-color: grey;
+        margin-left: 2%;
+        color: white;
+    }
+    
+    .columna-derecha {
+        flex: 50%;
+        padding: 0px;
+        color: white;
+    }
+
+    footer  {
+      background-color: grey;
+      
+    }
+
+    .centro {
+      text-align: center;
+      color: white;
+     
+    }
+    .centros {
+      text-align: center;
+      color: white;
+     
+    }
+
+    .imagenes{
+      margin-left: 2%;
+    }
+
+    .imagenes:hover{
+      text-align: center;
+      
+      box-shadow: 2px 2px 2px 1px white;
+    
+    }
+
+    .columna-derecha div h6{
+      line-height: 1;
+    }
+
+   
+  section {
+    
+      scroll-snap-align:center;
+   
+     
+    }
+    
+    .section{
+      scroll-snap-align: center;
+   
+    }
+
+    .fade-in-box {
+      opacity: 0;
+      transform: translateY(20px); /* Opcional: inicia ligeramente desplazado hacia abajo */
+      transition: opacity 2s, transform 1s; /* Transiciones suaves */
+  }
+  
+  /* Muestra el div cuando está en el viewport */
+  .fade-in-box.show {
+      opacity: 1;
+      transform: translateY(0);
+
+  }
+
+  body{
+    font-size: 16px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    background-color: #636363;
+  }
+
+  .bote{
+    background-color: orange;
+  }
+
+  .texo {
+    padding: 10%;
+    color: white;
+    position:absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+    float: right;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .texo h2{
+    font-weight: bold;
+  }
+
+  .texo p {
+    text-align: justify;
+    font-size: 25px;
+  }
+
+p {
+    margin-top: 1%;
+}
+
+  .textinstrumento h1{
+    color: orange;
+    font-weight: bold;
+    font-size: 50px;
+    
+  }

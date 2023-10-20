@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-adtracker-dev-93838-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891078905408:role/amplify-adtracker-dev-93838-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891078905408:role/amplify-adtracker-dev-93838-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-adtracker-dev-93838-deployment",
+      "UnauthRoleName": "amplify-adtracker-dev-93838-unauthRole",
+      "StackName": "amplify-adtracker-dev-93838",
+      "StackId": "arn:aws:cloudformation:us-east-1:891078905408:stack/amplify-adtracker-dev-93838/15dfde40-6c3a-11ee-b437-0ec9416eae53",
+      "AmplifyAppId": "d3ikal52vj32cu"
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-adtracker-test-94421-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891078905408:role/amplify-adtracker-test-94421-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891078905408:role/amplify-adtracker-test-94421-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-adtracker-test-94421-deployment",
+      "UnauthRoleName": "amplify-adtracker-test-94421-unauthRole",
+      "StackName": "amplify-adtracker-test-94421",
+      "StackId": "arn:aws:cloudformation:us-east-1:891078905408:stack/amplify-adtracker-test-94421/e2044e20-6c3a-11ee-8549-12f46cd57229",
+      "AmplifyAppId": "d3ikal52vj32cu"
+    }
+  }
+}

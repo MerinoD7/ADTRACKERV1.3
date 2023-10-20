@@ -1,0 +1,28 @@
+.caja1{
+    margin-top: 90px;
+    padding-top:20px ;
+    text-align: right;
+    color: white;
+}
+
+.nave{
+    position: fixed;
+    background-color:rgba(168, 6, 6, 0.925); 
+}
+.mani{
+    background-image: url(/IMG/mans.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+.caja2{
+    padding-top: 25px;
+}
+.textjust{
+    text-align: justify;
+}
+
+.flot{
+    float: right;
+}
